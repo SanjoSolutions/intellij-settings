@@ -1,0 +1,17 @@
+<templateSet group="Shortcuts JavaScript and TypeScript">
+  <template name="if" value="if ($CONDITIONS$) {&#10;  $END$&#10;}&#10;" description="if" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITIONS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ec" value="export class $NAME$ {&#10;  $END$&#10;}&#10;" description="export class" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+    </context>
+  </template>
+</templateSet>

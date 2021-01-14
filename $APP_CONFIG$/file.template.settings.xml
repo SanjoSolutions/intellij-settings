@@ -1,0 +1,9 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="create…Event.ts" reformat="true" live-template-enabled="true" />
+      <template name="Storybook Story.tsx" reformat="true" live-template-enabled="true" />
+      <template name="track...Event.ts" reformat="true" live-template-enabled="true" />
+    </default_templates>
+  </component>
+</application>
