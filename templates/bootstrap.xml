@@ -12,6 +12,7 @@
     <context>
       <option name="GSP" value="true" />
       <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
     </context>
   </template>
 </templateSet>
