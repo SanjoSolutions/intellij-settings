@@ -6,7 +6,7 @@
     </context>
   </template>
   <template name="ec" value="export class $NAME$ {&#10;  $END$&#10;}&#10;" description="export class" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
