@@ -4,7 +4,7 @@
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="TS_STATEMENT" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
   <template name="ef" value="export function $NAME$($PARAMETERS$): $RETURN_TYPE$ {&#10;  $END$&#10;}&#10;" description="export function" toReformat="true" toShortenFQNames="true">
@@ -12,7 +12,7 @@
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="TS_STATEMENT" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
   <template name="f" value="function $NAME$($PARAMETERS$): $RETURN_TYPE$ {&#10;  $END$&#10;}&#10;" description="function" toReformat="true" toShortenFQNames="true">
@@ -54,6 +54,14 @@
   </template>
   <template name="ei" value="export interface $NAME$ {&#10;  $END$&#10;}&#10;" description="export interface" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ec" value="export const $NAME$: $TYPE$ = $VALUE$" description="export const" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>

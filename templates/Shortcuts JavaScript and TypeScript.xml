@@ -5,13 +5,16 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ec" value="export class $NAME$ {&#10;  $END$&#10;}&#10;" description="export class" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+  <template name="ecl" value="export class $NAME$ {&#10;  $END$&#10;}&#10;" description="export class" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="capitalize(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_CLASS" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="class $NAME$ {&#10;  $END$&#10;}&#10;" description="class" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="capitalize(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
