@@ -17,6 +17,8 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="ReformatCode" />
+  <action id="ReformatWithPrettierAction" />
   <action id="RemoteHost.NewRemoteItem">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -26,4 +28,5 @@
   <action id="RunConfigurationAsAction_Run_Test 2_default_target">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="ShowReformatFileDialog" />
 </keymap>
