@@ -20,4 +20,10 @@
   <action id="RemoteHost.NewRemoteItem">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="RunConfigurationAsAction_Run_Test 1_default_target">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="RunConfigurationAsAction_Run_Test 2_default_target">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
 </keymap>
