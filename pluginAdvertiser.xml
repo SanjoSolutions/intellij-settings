@@ -29,7 +29,7 @@
                   </entry>
                   <entry key="JavaScriptNodeJsTraceType">
                     <value>
-                      <FeaturePluginData displayName="Spy-js for Node.js" pluginName="Spy-js" pluginId="spy-js" bundled="true" />
+                      <FeaturePluginData displayName="Spy-js for Node.js" pluginName="Spy-js" pluginId="spy-js" />
                     </value>
                   </entry>
                   <entry key="JavaScriptTestRunnerJest">
@@ -39,7 +39,7 @@
                   </entry>
                   <entry key="JavaScriptTestRunnerKarma">
                     <value>
-                      <FeaturePluginData displayName="Karma" pluginName="Karma" pluginId="Karma" bundled="true" />
+                      <FeaturePluginData displayName="Karma" pluginName="Karma" pluginId="Karma" />
                     </value>
                   </entry>
                   <entry key="JavaScriptTestRunnerProtractor">
@@ -49,7 +49,7 @@
                   </entry>
                   <entry key="JavaScriptTraceType">
                     <value>
-                      <FeaturePluginData displayName="Spy-js" pluginName="Spy-js" pluginId="spy-js" bundled="true" />
+                      <FeaturePluginData displayName="Spy-js" pluginName="Spy-js" pluginId="spy-js" />
                     </value>
                   </entry>
                   <entry key="JavascriptDebugType">
@@ -59,7 +59,7 @@
                   </entry>
                   <entry key="MAKEFILE_TARGET_RUN_CONFIGURATION">
                     <value>
-                      <FeaturePluginData displayName="Makefile" pluginName="Makefile support" pluginId="name.kropp.intellij.makefile" />
+                      <FeaturePluginData displayName="Makefile Target" pluginName="Makefile Language" pluginId="name.kropp.intellij.makefile" />
                     </value>
                   </entry>
                   <entry key="NodeJSConfigurationType">
@@ -79,7 +79,7 @@
                   </entry>
                   <entry key="PhoneGap">
                     <value>
-                      <FeaturePluginData displayName="Cordova" pluginName="Cordova" pluginId="com.github.masahirosuzuka.PhoneGapIntelliJPlugin" bundled="true" />
+                      <FeaturePluginData displayName="Cordova" pluginName="Cordova" pluginId="com.github.masahirosuzuka.PhoneGapIntelliJPlugin" />
                     </value>
                   </entry>
                   <entry key="ReactNative">
@@ -139,7 +139,7 @@
                   </entry>
                   <entry key="meteor-app-runner">
                     <value>
-                      <FeaturePluginData displayName="Meteor" pluginName="Meteor" pluginId="com.jetbrains.plugins.meteor" bundled="true" />
+                      <FeaturePluginData displayName="Meteor" pluginName="Meteor" pluginId="com.jetbrains.plugins.meteor" />
                     </value>
                   </entry>
                   <entry key="mocha-javascript-test-runner">
