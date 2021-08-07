@@ -3,6 +3,7 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="ES6_STATEMENT" value="true" />
       <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
@@ -10,6 +11,7 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="ES6_STATEMENT" value="true" />
       <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
@@ -50,6 +52,7 @@
     <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="ES6_STATEMENT" value="true" />
       <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
