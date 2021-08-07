@@ -9,4 +9,10 @@
     </option>
     <option name="LAST_SELECTED_LANGUAGE" value="TypeScript" />
   </component>
+  <component name="MultiLanguageDuplocatorSettings">
+    <object language="TypeScript">
+      <option name="DISTINGUISH_FUNCTIONS" value="false" />
+      <option name="DISTINGUISH_LITERALS" value="false" />
+    </object>
+  </component>
 </application>

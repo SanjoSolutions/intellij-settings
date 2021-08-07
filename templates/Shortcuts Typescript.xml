@@ -4,6 +4,7 @@
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="TS_STATEMENT" value="true" />
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
@@ -12,6 +13,7 @@
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="TS_STATEMENT" value="true" />
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
@@ -55,6 +57,7 @@
   <template name="ei" value="export interface $NAME$ {&#10;  $END$&#10;}&#10;" description="export interface" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="TS_STATEMENT" value="true" />
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
@@ -63,6 +66,7 @@
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="TS_STATEMENT" value="true" />
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>

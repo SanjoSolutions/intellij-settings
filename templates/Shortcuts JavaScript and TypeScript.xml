@@ -8,6 +8,7 @@
   <template name="ecl" value="export class $NAME$ {&#10;  $END$&#10;}&#10;" description="export class" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="capitalize(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JS_STATEMENT" value="true" />
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
