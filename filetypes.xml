@@ -6,8 +6,8 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".nojekyll" type="PLAIN_TEXT" />
       <mapping pattern=".gittouch" type="PLAIN_TEXT" />
-      <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="step" type="PLAIN_TEXT" />
+      <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="fld2" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
       <mapping ext="gherkin" type="PLAIN_TEXT" />
