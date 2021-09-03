@@ -12,6 +12,7 @@
       <mapping ext="üy" type="PLAIN_TEXT" />
       <mapping ext="fld2" type="PLAIN_TEXT" />
       <mapping ext="step" type="PLAIN_TEXT" />
+      <mapping ext="res" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="" type="PLAIN_TEXT" />
       <removed_mapping pattern="*.stories.tsx" approved="true" type="TypeScript JSX" />
