@@ -21,6 +21,7 @@
   <component name="EditorSettings">
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
     <option name="IS_CARET_BLINKING" value="false" />
+    <option name="ENABLE_RENDERED_DOC" value="true" />
     <option name="SMART_HOME" value="false" />
   </component>
   <component name="InlayHintsSettings">
