@@ -4,7 +4,6 @@
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
-      <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
   <template name="ef" value="export function $NAME$($PARAMETERS$) {&#10;  $END$&#10;}&#10;" description="export function" toReformat="true" toShortenFQNames="true">
@@ -12,7 +11,6 @@
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
-      <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
   <template name="f" value="function $NAME$($PARAMETERS$) {&#10;  $END$&#10;}&#10;" description="function" toReformat="true" toShortenFQNames="true">
@@ -46,14 +44,6 @@
   <template name="co" value="let container&#10;&#10;beforeEach(function () {&#10;  container = createContainer()&#10;})&#10;" description="container for testing" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ES6_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="ec" value="export const $NAME$ = $VALUE$" description="export const" toReformat="true" toShortenFQNames="true">
-    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
-    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="ES6_STATEMENT" value="true" />
-      <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>

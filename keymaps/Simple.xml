@@ -1,4 +1,7 @@
 <keymap version="1" name="Simple" parent="Mac OS X 10.5+">
+  <action id="ActivateTypeScriptToolWindow">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -6,27 +9,20 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
-  <action id="HippieBackwardCompletion" />
-  <action id="NewDir">
-    <keyboard-shortcut first-keystroke="shift meta n" />
-  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
-  <action id="NewScratchFile" />
-  <action id="ReformatCode" />
-  <action id="ReformatWithPrettierAction" />
   <action id="RemoteHost.NewRemoteItem">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
-  <action id="RunConfigurationAsAction_Run_Test 1_default_target">
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift meta k" />
     <keyboard-shortcut first-keystroke="f11" />
   </action>
-  <action id="RunConfigurationAsAction_Run_Test 2_default_target">
+  <action id="Vcs.UpdateProject">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
-  <action id="ShowReformatFileDialog" />
 </keymap>

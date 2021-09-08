@@ -21,7 +21,7 @@
       <option name="JS_CLASS" value="false" />
     </context>
   </template>
-  <template name="context" value="const [$END$] = useAppContext();&#10;" description="const [] = useAppContext();" toReformat="true" toShortenFQNames="true">
+  <template name="appcontext" value="const [$END$] = useAppContext();&#10;" description="const [] = useAppContext();" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
