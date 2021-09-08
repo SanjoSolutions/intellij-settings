@@ -5,6 +5,9 @@
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="meta alt w" />
+  </action>
   <action id="FileChooser.NewFolder" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
