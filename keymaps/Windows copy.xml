@@ -14,5 +14,8 @@
   <action id="EditorDeleteToWordStart" />
   <action id="EditorSelectWord" />
   <action id="GotoBookmark7" />
+  <action id="ReactExtractComponentAction">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
   <action id="SmartSelect" />
 </keymap>
