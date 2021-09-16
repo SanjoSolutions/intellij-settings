@@ -11,7 +11,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cl" value="class $NAME$ {&#10;  $END$&#10;}&#10;" description="class" toReformat="false" toShortenFQNames="true">
+  <template name="cl" value="class $NAME$ {&#10;  $END$&#10;}&#10;" description="class" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -21,6 +21,12 @@
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="ecl" value="export class $NAME$ {&#10;  $END$&#10;}&#10;" description="export class" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
