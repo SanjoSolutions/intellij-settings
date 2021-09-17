@@ -7,7 +7,6 @@
     <option name="JAVADOC_STUB_ON_ENTER" value="false" />
     <option name="SMART_END_ACTION" value="false" />
     <option name="SURROUND_SELECTION_ON_QUOTE_TYPED" value="false" />
-    <option name="REFORMAT_BLOCK_ON_RBRACE" value="false" />
     <option name="REFORMAT_ON_PASTE" value="1" />
   </component>
   <component name="DefaultFont">
@@ -27,8 +26,8 @@
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
   <component name="JSEditorOptions">
+    <option name="START_STRING_INTERPOLATION_ON_TYPING" value="true" />
     <option name="ESCAPE_PASTED_TEXT" value="false" />
-    <option name="CONVERT_HTML_TO_JSX" value="false" />
   </component>
   <component name="JsonEditorOptions">
     <option name="COMMA_ON_ENTER" value="false" />
