@@ -29,4 +29,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="for" value="for (let index = 0; index &lt; $LENGTH$; index++) {&#10;  $END$&#10;}&#10;" description="for" toReformat="false" toShortenFQNames="true">
+    <variable name="LENGTH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
