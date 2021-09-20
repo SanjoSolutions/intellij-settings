@@ -336,9 +336,12 @@
   <inspection_tool class="JSUnresolvedVariable" enabled="true" level="INFORMATION" enabled_by_default="true">
     <option name="myStrictlyCheckProperties" value="false" />
   </inspection_tool>
-  <inspection_tool class="JSUnusedAssignment" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="JSUnusedGlobalSymbols" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="JSUnusedLocalSymbols" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="JSUnusedAssignment" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="JSUnusedGlobalSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="myReportUnusedDefinitions" value="true" />
+    <option name="myReportUnusedProperties" value="true" />
+  </inspection_tool>
+  <inspection_tool class="JSUnusedLocalSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="JSValidateJSDoc" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSValidateTypes" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="JSVoidFunctionReturnValueUsed" enabled="false" level="WARNING" enabled_by_default="false" />
