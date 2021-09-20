@@ -52,4 +52,9 @@
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ed" value="export default " description="export default" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
