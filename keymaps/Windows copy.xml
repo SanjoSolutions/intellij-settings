@@ -1,4 +1,7 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
   </action>
@@ -14,5 +17,14 @@
   <action id="EditorDeleteToWordStart" />
   <action id="EditorSelectWord" />
   <action id="GotoBookmark7" />
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+  </action>
+  <action id="ReactExtractComponentAction">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
   <action id="SmartSelect" />
+  <action id="Terminal.CopySelectedText">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
 </keymap>
