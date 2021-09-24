@@ -138,7 +138,7 @@
   <inspection_tool class="ES6RedundantNestingInTemplateLiteral" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="ES6ShorthandObjectProperty" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="ES6TopLevelAwaitExpression" enabled="false" level="ERROR" enabled_by_default="false" />
-  <inspection_tool class="ES6UnusedImports" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ES6UnusedImports" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="EditorConfigCharClassLetterRedundancy" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="EditorConfigCharClassRedundancy" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="EditorConfigDeprecatedDescriptor" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -336,9 +336,12 @@
   <inspection_tool class="JSUnresolvedVariable" enabled="true" level="INFORMATION" enabled_by_default="true">
     <option name="myStrictlyCheckProperties" value="false" />
   </inspection_tool>
-  <inspection_tool class="JSUnusedAssignment" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="JSUnusedGlobalSymbols" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="JSUnusedLocalSymbols" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="JSUnusedAssignment" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="JSUnusedGlobalSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="myReportUnusedDefinitions" value="true" />
+    <option name="myReportUnusedProperties" value="true" />
+  </inspection_tool>
+  <inspection_tool class="JSUnusedLocalSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="JSValidateJSDoc" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSValidateTypes" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="JSVoidFunctionReturnValueUsed" enabled="false" level="WARNING" enabled_by_default="false" />

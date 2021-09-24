@@ -2,31 +2,34 @@
   <template name="des" value="describe('$NAME$', () =&gt; {&#10;  $END$&#10;});" description="Inserts describe() block" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="it" value="it('$NAME$', () =&gt; {&#10;  $END$&#10;});" description="Inserts it() block" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="ita" value="it('$NAME$', async () =&gt; {&#10;  $END$&#10;}); " description="Inserts async it() block" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="test" value="test('$NAME$', () =&gt; {&#10;  $END$&#10;}); " description="Inserts test() block" toReformat="true" toShortenFQNames="true">
+  <template name="test" value="test('$NAME$', () =&gt; {&#10;  $END$&#10;})&#10;" description="Inserts test() block" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="testa" value="test('$NAME$', async () =&gt; {&#10;  $END$&#10;}); " description="Inserts async test() block" toReformat="true" toShortenFQNames="true">
+  <template name="testa" value="test('$NAME$', async () =&gt; {&#10;  $END$&#10;})&#10;" description="Inserts async test() block" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="af" value="after(function() {&#10;  $END$&#10;});" description="Inserts after() block" toReformat="true" toShortenFQNames="true" deactivated="true" />
+  <template name="af" value="after(function() {&#10;  $END$&#10;});" description="Inserts after() block" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
   <template name="befe" value="beforeEach(function() {&#10;  $END$&#10;});" description="Inserts beforeEach() block" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -40,7 +43,7 @@
   <template name="context" value="context('$NAME$', () =&gt; {&#10;  $END$&#10;});" description="Inserts context() block" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
