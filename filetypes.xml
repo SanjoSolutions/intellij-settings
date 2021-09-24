@@ -19,8 +19,6 @@
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="" type="PLAIN_TEXT" />
       <removed_mapping ext="lua" approved="true" type="lua" />
-      <removed_mapping ext="lua" approved="true" type="lua" />
-      <removed_mapping pattern="*.stories.tsx" approved="true" type="TypeScript JSX" />
       <removed_mapping pattern="*.stories.tsx" approved="true" type="TypeScript JSX" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
     </extensionMap>
