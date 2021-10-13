@@ -1,25 +1,25 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="lua" type="AUTO_DETECTED" />
-      <mapping pattern=".gittouch" type="PLAIN_TEXT" />
-      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
-      <mapping pattern=".nojekyll" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping ext="woff2" type="PLAIN_TEXT" />
-      <mapping ext="step" type="PLAIN_TEXT" />
-      <mapping ext="s" type="PLAIN_TEXT" />
-      <mapping ext="gherkin" type="PLAIN_TEXT" />
+      <mapping pattern=".nojekyll" type="PLAIN_TEXT" />
+      <mapping pattern=".gittouch" type="PLAIN_TEXT" />
       <mapping ext="üy" type="PLAIN_TEXT" />
+      <mapping ext="text" type="PLAIN_TEXT" />
+      <mapping ext="step" type="PLAIN_TEXT" />
       <mapping ext="fld2" type="PLAIN_TEXT" />
       <mapping ext="xcf" type="PLAIN_TEXT" />
-      <mapping ext="tsv" type="PLAIN_TEXT" />
+      <mapping ext="s" type="PLAIN_TEXT" />
+      <mapping ext="woff2" type="PLAIN_TEXT" />
       <mapping ext="res" type="PLAIN_TEXT" />
-      <mapping ext="text" type="PLAIN_TEXT" />
+      <mapping ext="gherkin" type="PLAIN_TEXT" />
+      <mapping ext="tsv" type="PLAIN_TEXT" />
       <mapping ext="" type="PLAIN_TEXT" />
       <removed_mapping ext="lua" approved="true" type="lua" />
       <removed_mapping pattern="*.stories.tsx" approved="true" type="TypeScript JSX" />
+      <mapping ext="lua" type="AUTO_DETECTED" />
     </extensionMap>
   </component>
 </application>
