@@ -3,15 +3,19 @@
     <value>
       <option name="INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
+      <option name="SMART_TABS" value="true" />
     </value>
   </option>
   <option name="SOFT_MARGINS" value="120" />
   <CssCodeStyleSettings>
     <option name="HEX_COLOR_LOWER_CASE" value="true" />
+    <option name="ENFORCE_QUOTES_ON_FORMAT" value="true" />
   </CssCodeStyleSettings>
   <HTMLCodeStyleSettings>
     <option name="HTML_ATTRIBUTE_WRAP" value="4" />
     <option name="HTML_KEEP_BLANK_LINES" value="1" />
+    <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
     <option name="HTML_INLINE_ELEMENTS" value="" />
     <option name="HTML_ENFORCE_QUOTES" value="true" />
     <option name="HTML_NEWLINE_BEFORE_FIRST_ATTRIBUTE" value="When multiline" />
@@ -20,6 +24,7 @@
   <JSCodeStyleSettings version="0">
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
+    <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
     <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
@@ -32,13 +37,16 @@
   </JSCodeStyleSettings>
   <LessCodeStyleSettings>
     <option name="HEX_COLOR_LOWER_CASE" value="true" />
+    <option name="ENFORCE_QUOTES_ON_FORMAT" value="true" />
   </LessCodeStyleSettings>
   <ScssCodeStyleSettings>
     <option name="HEX_COLOR_LOWER_CASE" value="true" />
+    <option name="ENFORCE_QUOTES_ON_FORMAT" value="true" />
   </ScssCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
+    <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
     <option name="PREFER_AS_TYPE_CAST" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
@@ -47,11 +55,17 @@
     <option name="VAR_DECLARATION_WRAP" value="5" />
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
+    <option name="SPACES_WITHIN_INTERPOLATION_EXPRESSIONS" value="true" />
     <option name="IMPORT_SORT_MODULE_NAME" value="true" />
+    <option name="USE_PATH_MAPPING" value="NEVER" />
   </TypeScriptCodeStyleSettings>
   <XML>
     <option name="XML_KEEP_BLANK_LINES" value="1" />
   </XML>
+  <yaml>
+    <option name="SEQUENCE_ON_NEW_LINE" value="true" />
+    <option name="AUTOINSERT_SEQUENCE_MARKER" value="false" />
+  </yaml>
   <codeStyleSettings language="CSS">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <indentOptions>
@@ -87,8 +101,13 @@
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="JSON">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
-    <option name="RIGHT_MARGIN" value="90" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
@@ -102,7 +121,6 @@
     <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
     <option name="BINARY_OPERATION_WRAP" value="5" />
     <option name="TERNARY_OPERATION_WRAP" value="5" />
-    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
     <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
     <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
     <option name="FOR_STATEMENT_WRAP" value="5" />
@@ -125,6 +143,13 @@
   <codeStyleSettings language="LESS">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Markdown">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
@@ -156,7 +181,6 @@
     </arrangement>
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
-    <option name="RIGHT_MARGIN" value="90" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
@@ -190,7 +214,19 @@
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="Vue">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="XML">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="firebase_rules">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />

@@ -3,14 +3,10 @@
     <option name="PARAMETER_INFO_DELAY" value="0" />
     <option name="AUTO_POPUP_COMPLETION_LOOKUP" value="false" />
     <option name="SMART_BACKSPACE" value="0" />
-    <option name="SMART_INDENT_ON_ENTER" value="false" />
     <option name="JAVADOC_STUB_ON_ENTER" value="false" />
     <option name="SMART_END_ACTION" value="false" />
     <option name="SURROUND_SELECTION_ON_QUOTE_TYPED" value="false" />
-    <option name="AUTOINSERT_PAIR_BRACKET" value="false" />
-    <option name="AUTOINSERT_PAIR_QUOTE" value="false" />
-    <option name="REFORMAT_BLOCK_ON_RBRACE" value="false" />
-    <option name="REFORMAT_ON_PASTE" value="1" />
+    <option name="REFORMAT_ON_PASTE" value="4" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="16" />
@@ -27,8 +23,8 @@
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
   <component name="JSEditorOptions">
+    <option name="START_STRING_INTERPOLATION_ON_TYPING" value="true" />
     <option name="ESCAPE_PASTED_TEXT" value="false" />
-    <option name="CONVERT_HTML_TO_JSX" value="false" />
   </component>
   <component name="JsonEditorOptions">
     <option name="COMMA_ON_ENTER" value="false" />
