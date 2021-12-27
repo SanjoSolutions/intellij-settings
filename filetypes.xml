@@ -1,11 +1,12 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern=".nojekyll" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
+      <mapping ext="run" type="JSON" />
       <mapping pattern=".gittouch" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
+      <mapping pattern=".nojekyll" type="PLAIN_TEXT" />
       <mapping ext="woff2" type="PLAIN_TEXT" />
       <mapping ext="step" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
@@ -17,7 +18,9 @@
       <mapping ext="res" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="" type="PLAIN_TEXT" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="lua" approved="true" type="AUTO_DETECTED" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping pattern="*.stories.tsx" approved="true" type="TypeScript JSX" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
     </extensionMap>
