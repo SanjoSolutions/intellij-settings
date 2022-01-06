@@ -27,12 +27,12 @@
     </context>
   </template>
   <template name="af" value="after(function() {&#10;  $END$&#10;});" description="Inserts after() block" toReformat="true" toShortenFQNames="true" deactivated="true" />
-  <template name="befe" value="beforeEach(function() {&#10;  $END$&#10;});" description="Inserts beforeEach() block" toReformat="true" toShortenFQNames="true">
+  <template name="befe" value="beforeEach(() =&gt; {&#10;  $END$&#10;});" description="Inserts beforeEach() block" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="bef" value="before(function() {&#10;  $END$&#10;});" description="Inserts before() block" toReformat="true" toShortenFQNames="true">
+  <template name="bef" value="before(() =&gt; {&#10;  $END$&#10;});" description="Inserts before() block" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
@@ -43,4 +43,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="bfe" value="beforeEach(() =&gt; {&#10;  $END$&#10;});" description="Inserts beforeEach() block" toReformat="true" toShortenFQNames="true" />
+  <template name="afe" value="afterEach(() =&gt; {&#10;  $END$&#10;});" description="Inserts afterEach() block" toReformat="true" toShortenFQNames="true" />
+  <template name="bf" value="before(() =&gt; {&#10;  $END$&#10;});" description="Inserts before() block" toReformat="true" toShortenFQNames="true" />
 </templateSet>
