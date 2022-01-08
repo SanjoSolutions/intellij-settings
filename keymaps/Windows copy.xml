@@ -24,7 +24,6 @@
   <action id="Maven_efbad41aoptimalPlay4b2beb82package">
     <keyboard-shortcut first-keystroke="f6" />
   </action>
-  <action id="Move" />
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="ctrl insert" />
   </action>
