@@ -11,7 +11,6 @@
     <mask>*.css,*.scss</mask>
     <mask>*.tsx</mask>
     <mask>*.json</mask>
-    <mask>package.json</mask>
     <mask>tsconfig.json</mask>
     <mask>*.xml</mask>
     <mask>*.css</mask>
@@ -24,5 +23,6 @@
     <mask>*.ts</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
+    <mask>package.json</mask>
   </component>
 </application>
