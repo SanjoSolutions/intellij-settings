@@ -127,7 +127,7 @@
   <inspection_tool class="ES6ConvertIndexedForToForOf" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="ES6ConvertLetToConst" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="ES6ConvertModuleExportToExport" enabled="false" level="INFORMATION" enabled_by_default="false" />
-  <inspection_tool class="ES6ConvertRequireIntoImport" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="ES6ConvertRequireIntoImport" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="ES6ConvertToForOf" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="ES6ConvertVarToLetConst" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="ES6DestructuringVariablesMerge" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
@@ -200,6 +200,19 @@
   <inspection_tool class="GherkinScenarioToScenarioOutline" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="GjsLint" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="GlobalNameCanbeLocal" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="GraphQLDuplicateArgument" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GraphQLDuplicateDirective" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GraphQLEmptyType" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GraphQLIllegalDirectiveArgument" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GraphQLIllegalName" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GraphQLInterfaceImplementation" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GraphQLInvalidDirectiveLocation" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GraphQLMemberRedefinition" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GraphQLMissingType" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GraphQLSchemaValidation" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GraphQLTypeRedefinition" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GraphQLUnexpectedType" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GraphQLUnresolvedReference" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="GrazieInspection" enabled="true" level="TYPO" enabled_by_default="true" />
   <inspection_tool class="HamlNestedTagContent" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="HardwiredNamespacePrefix" enabled="false" level="WARNING" enabled_by_default="false" />
