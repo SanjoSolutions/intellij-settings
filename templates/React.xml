@@ -8,4 +8,10 @@
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
+  <template name="ut" value="const { t } = useTranslation$END$('$namespace$')" description="useTranslation" toReformat="true" toShortenFQNames="true">
+    <variable name="namespace" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
