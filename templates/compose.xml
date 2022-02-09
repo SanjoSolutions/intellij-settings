@@ -1,0 +1,27 @@
+<templateSet group="compose">
+  <template name="t" value="&lt;!-- CODE: t('$id$') --&gt;$END$" description="t" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="tl" value="&lt;!-- CODE: t('$id$', { ns: 'layout' }) --&gt;$END$" description="t with namespace 'layout'" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="code" value="&lt;!-- CODE: $code$ --&gt;$END$" description="code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="nl" value="&lt;!-- CODE: navLink('$pageId$', '$translationId$', { ns: 'layout' }) --&gt;$END$" description="nav link" toReformat="false" toShortenFQNames="true">
+    <variable name="pageId" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="translationId" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
