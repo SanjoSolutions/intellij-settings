@@ -27,6 +27,7 @@
       <removed_mapping pattern="*.stories.tsx" approved="true" type="TypeScript JSX" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
+      <removed_mapping pattern=".prettierignore" approved="true" type="Prettier File" />
     </extensionMap>
   </component>
 </application>
