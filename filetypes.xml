@@ -11,6 +11,7 @@
       <mapping ext="step" type="PLAIN_TEXT" />
       <mapping ext="npz" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
+      <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="gherkin" type="PLAIN_TEXT" />
       <mapping ext="üy" type="PLAIN_TEXT" />
       <mapping ext="fld2" type="PLAIN_TEXT" />
