@@ -50,4 +50,7 @@
     <keyboard-shortcut first-keystroke="alt open_bracket" />
     <keyboard-shortcut first-keystroke="alt #10000fc" />
   </action>
+  <action id="copilot.requestCompletions">
+    <keyboard-shortcut first-keystroke="ctrl alt #10000df" />
+  </action>
 </keymap>
