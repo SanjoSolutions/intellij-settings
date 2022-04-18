@@ -14,4 +14,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="uc" value="const $NAME$ = useCallback(&#10;&#9;function $NAME$() {&#10;&#9;&#9;$END$&#10;&#9;},&#10;&#9;[]&#10;)" description="useCallback" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
