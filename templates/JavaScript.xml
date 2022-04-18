@@ -4,4 +4,7 @@
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;items &quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="us" value="&quot;use strict&quot;;&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
 </templateSet>

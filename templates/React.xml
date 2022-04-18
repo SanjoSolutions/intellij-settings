@@ -20,4 +20,13 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="us" value="const [$NAME$, $SETTER_NAME$] = useState&lt;$TYPE$&gt;($DEFAULT_VALUE$)" description="use state" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SETTER_NAME" expression="concat(&quot;set&quot;, capitalize(NAME))" defaultValue="" alwaysStopAt="false" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT_VALUE" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
