@@ -2,5 +2,6 @@
   <template name="forof" value="for (const $VAR$ of $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..of)" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;items &quot;" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
