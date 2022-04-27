@@ -29,4 +29,12 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="um" value="const $NAME$ = React.useMemo(&#10;&#9;() =&gt; $IMPLEMENTATION$,&#10;&#9;[$DEPENDENCIES$]&#10;)$END$" description="useMemo" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMPLEMENTATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEPENDENCIES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
