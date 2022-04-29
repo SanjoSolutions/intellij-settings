@@ -1,0 +1,7 @@
+<templateSet group="XSpec">
+  <template name="hst" value="&lt;hSpecText&gt;$SELECTION$&lt;/hSpecText&gt;$END$" description="hSpecText" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
