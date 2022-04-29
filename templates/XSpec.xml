@@ -4,4 +4,9 @@
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
+  <template name="hsl" value="&lt;hSpecList&gt;$SELECTION$&lt;/hSpecList&gt;$END$" description="hSpecList" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
