@@ -35,6 +35,7 @@
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="Terminal.SwitchFocusToEditor" />
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="UpdateRunningApplication" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
