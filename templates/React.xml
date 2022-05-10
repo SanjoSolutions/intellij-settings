@@ -37,4 +37,11 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ue" value="useEffect(&#10;&#9;function $NAME$() {&#10;&#9;&#10;&#9;},&#10;&#9;[$DEPENDENCIES$]&#10;)$END$" description="useEffect" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEPENDENCIES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
