@@ -46,10 +46,14 @@
   <action id="copilot.cycleNextInlays">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
     <keyboard-shortcut first-keystroke="alt plus" />
+    <keyboard-shortcut first-keystroke="ctrl alt 9" />
   </action>
   <action id="copilot.cyclePrevInlays">
-    <keyboard-shortcut first-keystroke="alt open_bracket" />
     <keyboard-shortcut first-keystroke="alt #10000fc" />
+    <keyboard-shortcut first-keystroke="ctrl alt 8" />
+  </action>
+  <action id="copilot.openCopilot">
+    <keyboard-shortcut first-keystroke="ctrl alt dead_acute" />
   </action>
   <action id="copilot.requestCompletions">
     <keyboard-shortcut first-keystroke="ctrl alt #10000df" />
