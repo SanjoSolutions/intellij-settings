@@ -34,7 +34,7 @@
     <mask>*.spec.ts*</mask>
     <mask>package.json</mask>
     <mask>addSpec*</mask>
-    <mask>*.spec.tsx</mask>
     <mask>*.graphql</mask>
+    <mask>*.spec.tsx</mask>
   </component>
 </application>
