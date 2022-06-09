@@ -47,7 +47,6 @@
     <option name="ENFORCE_QUOTES_ON_FORMAT" value="true" />
   </ScssCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
-    <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
     <option name="PREFER_AS_TYPE_CAST" value="true" />
