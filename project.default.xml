@@ -1,0 +1,50 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="InspectionProjectProfileManager">
+        <option name="PROJECT_PROFILE" />
+        <version value="1.0" />
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State />
+              <State>
+                <id>CSS</id>
+              </State>
+              <State>
+                <id>Code quality toolsCSS</id>
+              </State>
+              <State>
+                <id>GeneralJavaScript and TypeScript</id>
+              </State>
+              <State>
+                <id>Imports and dependenciesJavaScript and TypeScript</id>
+              </State>
+              <State>
+                <id>JavaScript and TypeScript</id>
+              </State>
+              <State>
+                <id>Node.jsJavaScript and TypeScript</id>
+              </State>
+              <State>
+                <id>TypeScriptJavaScript and TypeScript</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>CSS</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="settings.editor.selected.configurable" value="ics" />
+      </component>
+    </defaultProject>
+  </component>
+</application>
