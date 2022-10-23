@@ -4,11 +4,6 @@
     <option name="luaCheckArgs" value="" />
   </component>
   <component name="LuaSettings">
-    <option name="additionalSourcesRoot">
-      <array>
-        <option value="E:/BlizzardInterfaceCode" />
-      </array>
-    </option>
     <option name="languageLevel" value="Lua 5.1" />
     <option name="smartCloseEnd" value="false" />
   </component>
