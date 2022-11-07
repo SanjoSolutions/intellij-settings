@@ -33,5 +33,6 @@
     <mask>*.spec.tsx</mask>
     <mask>*.graphql</mask>
     <mask>*.lua</mask>
+    <mask>*_Vanilla.toc</mask>
   </component>
 </application>
