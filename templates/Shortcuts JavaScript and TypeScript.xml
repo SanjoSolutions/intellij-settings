@@ -1,0 +1,98 @@
+<templateSet group="Shortcuts JavaScript and TypeScript">
+  <template name="if" value="if ($CONDITIONS$) {&#10;  $END$&#10;}" description="if" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITIONS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ec" value="export const $NAME$ = $END$" description="export const" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="class $NAME$ {&#10;  $END$&#10;}" description="class" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="con" value="constructor($PARAMETERS$) {&#10;  $END$&#10;}" description="constructor" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="ecl" value="export class $NAME$ {&#10;  $END$&#10;}" description="export class" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fori" value="for (let $VARIABLE$ = 0; $VARIABLE$ &lt; $LENGTH$; $VARIABLE$++) {&#10;  $END$&#10;}" description="for" toReformat="true" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="&quot;index&quot;" alwaysStopAt="true" />
+    <variable name="LENGTH" expression="concat(jsArrayVariable(), &quot;.length&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="t" value="this" description="this" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="t." value="this." description="this." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ex" value="export" description="export" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ed" value="export default " description="export default" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ij" value="import { describe, it, expect } from '@jest/globals'" description="import Jest" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="i" value="import { describe, it, test, expect, jest, afterEach, beforeEach } from '@jest/globals'" description="import Jest" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ford" value="for (let $VARIABLE$ = $START_INDEX$; $VARIABLE$ &gt;= 0; $VARIABLE$--) {&#10;  $END$&#10;}" description="for from highest index to lowest index" toReformat="true" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="&quot;index&quot;" alwaysStopAt="true" />
+    <variable name="START_INDEX" expression="concat(jsArrayVariable(), &quot;.length - 1&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="while" value="while ($CONDITION$) {&#10;  $END$&#10;}" description="while" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="dowhile" value="do {&#10;  $END$&#10;} while ($CONDITION$)" description="do while" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for (const $VAR$ of $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..of)" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;items &quot;" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
