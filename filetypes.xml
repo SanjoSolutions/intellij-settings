@@ -24,6 +24,7 @@
       <mapping ext="tsv" type="PLAIN_TEXT" />
       <mapping ext="mid" type="PLAIN_TEXT" />
       <mapping ext="res" type="PLAIN_TEXT" />
+      <mapping ext="a" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
