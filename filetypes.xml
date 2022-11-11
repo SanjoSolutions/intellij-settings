@@ -28,10 +28,10 @@
       <mapping ext="a" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="" type="PLAIN_TEXT" />
+      <removed_mapping ext="lua" type="lua" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
-      <removed_mapping ext="lua" approved="true" type="AUTO_DETECTED" />
       <removed_mapping ext="lua" approved="true" type="lua" />
       <removed_mapping ext="otf" approved="true" type="Font" />
       <removed_mapping ext="psd" approved="true" type="Image" />
