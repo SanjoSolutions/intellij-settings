@@ -52,4 +52,10 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ei" value="export interface $NAME$ {&#10;&#9;$END$&#10;}" description="export interface" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
