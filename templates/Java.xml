@@ -6,7 +6,6 @@
   </template>
   <template name="else-if" value="else if($CONDITION$){&#10;$END$&#10;} " description="Add else-if branch" toReformat="true" toShortenFQNames="false" deactivated="true">
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="itar" value="for(int $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  $ELEMENT_TYPE$ $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="INDEX" expression="suggestIndexName()" defaultValue="" alwaysStopAt="true" />
