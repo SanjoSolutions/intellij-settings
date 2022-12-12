@@ -14,7 +14,6 @@
       <mapping ext="step" type="PLAIN_TEXT" />
       <mapping ext="pkg" type="PLAIN_TEXT" />
       <mapping ext="npz" type="PLAIN_TEXT" />
-      <mapping ext="toc" type="PLAIN_TEXT" />
       <mapping ext="nn" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
@@ -48,6 +47,7 @@
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping pattern="*.stories.tsx" approved="true" type="TypeScript JSX" />
       <removed_mapping pattern="*.stories.tsx" approved="true" type="TypeScript JSX" />
+      <removed_mapping ext="toc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
