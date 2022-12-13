@@ -24,7 +24,6 @@
   <action id="Maven_efbad41aoptimalPlay4b2beb82package">
     <keyboard-shortcut first-keystroke="f6" />
   </action>
-  <action id="Move" />
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="ctrl insert" />
   </action>
@@ -32,7 +31,37 @@
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
   <action id="SmartSelect" />
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
   <action id="Terminal.CopySelectedText">
     <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="Terminal.SwitchFocusToEditor" />
+  <action id="TodoViewGroupByFlattenPackage" />
+  <action id="UpdateRunningApplication" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+  <action id="copilot.applyInlays">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="copilot.cycleNextInlays">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+    <keyboard-shortcut first-keystroke="alt plus" />
+    <keyboard-shortcut first-keystroke="ctrl alt 9" />
+  </action>
+  <action id="copilot.cyclePrevInlays">
+    <keyboard-shortcut first-keystroke="alt #10000fc" />
+    <keyboard-shortcut first-keystroke="ctrl alt 8" />
+  </action>
+  <action id="copilot.openCopilot">
+    <keyboard-shortcut first-keystroke="ctrl alt dead_acute" />
+  </action>
+  <action id="copilot.requestCompletions">
+    <keyboard-shortcut first-keystroke="ctrl alt #10000df" />
   </action>
 </keymap>

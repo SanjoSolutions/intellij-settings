@@ -1,5 +1,10 @@
 <application>
+  <component name="LuaCheckSettings">
+    <option name="luaCheck" value="" />
+    <option name="luaCheckArgs" value="" />
+  </component>
   <component name="LuaSettings">
     <option name="languageLevel" value="Lua 5.1" />
+    <option name="smartCloseEnd" value="false" />
   </component>
 </application>
