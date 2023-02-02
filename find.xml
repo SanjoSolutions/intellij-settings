@@ -11,6 +11,7 @@
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
+    <mask>*Chat*</mask>
     <mask>*.xml</mask>
   </component>
 </application>
