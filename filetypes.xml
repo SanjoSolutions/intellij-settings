@@ -11,6 +11,7 @@
       <mapping ext="woff2" type="PLAIN_TEXT" />
       <mapping ext="step" type="PLAIN_TEXT" />
       <mapping ext="npz" type="PLAIN_TEXT" />
+      <mapping ext="pyc" type="PLAIN_TEXT" />
       <mapping ext="nn" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
