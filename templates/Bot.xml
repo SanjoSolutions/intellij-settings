@@ -1,0 +1,20 @@
+<templateSet group="Bot">
+  <template name="i" value="--- @type $NAME$&#10;local $NAME$ = Modules.determineImportVariable('$NAME$', imports)&#10;$END$" description="import" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="c" value="--- @class $NAME$" description="class type" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="t" value="--- @type $NAME$" description="type" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

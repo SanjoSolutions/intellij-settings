@@ -1,0 +1,9 @@
+<templateSet group="Lua 2">
+  <template name="f" value="function $NAME$($PARAMETERS$)&#10;&#9;$END$&#10;end" description="function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
