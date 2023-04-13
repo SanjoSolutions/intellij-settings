@@ -5,9 +5,9 @@
       <mapping ext="run" type="JSON" />
       <mapping pattern=".gittouch" type="PLAIN_TEXT" />
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".nojekyll" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="package" type="PLAIN_TEXT" />
       <mapping ext="woff2" type="PLAIN_TEXT" />
       <mapping ext="pkg" type="PLAIN_TEXT" />
@@ -34,6 +34,7 @@
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="" type="PLAIN_TEXT" />
       <mapping ext="tdesc" type="XML" />
+      <mapping pattern=".pkgmeta" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="Batch" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
@@ -47,6 +48,7 @@
       <removed_mapping ext="ts4script" approved="true" type="Python" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
+      <removed_mapping pattern=".pkgmeta" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".prettierignore" approved="true" type="Prettier File" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
