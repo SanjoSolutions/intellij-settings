@@ -2,4 +2,10 @@
   <template name="us" value="&quot;use strict&quot;;&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
+  <template name="forof" value="for ($VARKIND$ $VAR$ of $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..of)" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind()" defaultValue="let" alwaysStopAt="false" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="false" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
