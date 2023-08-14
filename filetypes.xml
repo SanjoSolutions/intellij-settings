@@ -4,19 +4,20 @@
     <extensionMap>
       <mapping ext="run" type="JSON" />
       <mapping pattern=".gittouch" type="PLAIN_TEXT" />
-      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
-      <mapping pattern=".nojekyll" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
+      <mapping pattern=".nojekyll" type="PLAIN_TEXT" />
       <mapping ext="package" type="PLAIN_TEXT" />
       <mapping ext="woff2" type="PLAIN_TEXT" />
-      <mapping ext="pkg" type="PLAIN_TEXT" />
       <mapping ext="step" type="PLAIN_TEXT" />
+      <mapping ext="pkg" type="PLAIN_TEXT" />
       <mapping ext="npz" type="PLAIN_TEXT" />
       <mapping ext="pyc" type="PLAIN_TEXT" />
       <mapping ext="php" type="PLAIN_TEXT" />
       <mapping ext="bat" type="PLAIN_TEXT" />
       <mapping ext="nn" type="PLAIN_TEXT" />
+      <mapping ext="dot" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="gherkin" type="PLAIN_TEXT" />
@@ -36,9 +37,11 @@
       <mapping ext="tdesc" type="XML" />
       <mapping pattern=".dependencies" type="YAML" />
       <mapping pattern=".pkgmeta" type="YAML" />
+      <mapping ext="gv" type="dot file" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="Batch" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="dot" approved="true" type="dot file" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="lua" approved="true" type="AUTO_DETECTED" />
       <removed_mapping ext="lua" approved="true" type="PLAIN_TEXT" />
