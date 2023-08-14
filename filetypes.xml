@@ -34,6 +34,7 @@
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="" type="PLAIN_TEXT" />
       <mapping ext="tdesc" type="XML" />
+      <mapping pattern=".dependencies" type="YAML" />
       <mapping pattern=".pkgmeta" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="Batch" />
