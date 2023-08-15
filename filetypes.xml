@@ -50,6 +50,7 @@
       <removed_mapping ext="toc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="ts4script" approved="true" type="Python" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <removed_mapping pattern=".dependencies" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern=".pkgmeta" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".prettierignore" approved="true" type="Prettier File" />
