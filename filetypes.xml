@@ -17,6 +17,7 @@
       <mapping ext="php" type="PLAIN_TEXT" />
       <mapping ext="bat" type="PLAIN_TEXT" />
       <mapping ext="nn" type="PLAIN_TEXT" />
+      <mapping ext="dot" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="gherkin" type="PLAIN_TEXT" />
@@ -34,10 +35,12 @@
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="" type="PLAIN_TEXT" />
       <mapping ext="tdesc" type="XML" />
+      <mapping pattern=".dependencies" type="YAML" />
       <mapping pattern=".pkgmeta" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="Batch" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="dot" approved="true" type="dot file" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="lua" approved="true" type="AUTO_DETECTED" />
       <removed_mapping ext="lua" approved="true" type="PLAIN_TEXT" />
@@ -47,10 +50,12 @@
       <removed_mapping ext="toc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="ts4script" approved="true" type="Python" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <removed_mapping pattern=".dependencies" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern=".pkgmeta" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".prettierignore" approved="true" type="Prettier File" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="gv" type="dot file" />
       <mapping ext="main.kts" type="Kotlin" />
     </extensionMap>
   </component>
