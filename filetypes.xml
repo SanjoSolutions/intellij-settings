@@ -8,32 +8,31 @@
       <mapping pattern=".nojekyll" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping ext="package" type="PLAIN_TEXT" />
-      <mapping ext="woff2" type="PLAIN_TEXT" />
-      <mapping ext="pkg" type="PLAIN_TEXT" />
-      <mapping ext="step" type="PLAIN_TEXT" />
-      <mapping ext="npz" type="PLAIN_TEXT" />
-      <mapping ext="pyc" type="PLAIN_TEXT" />
-      <mapping ext="php" type="PLAIN_TEXT" />
+      <mapping ext="" type="PLAIN_TEXT" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="bat" type="PLAIN_TEXT" />
-      <mapping ext="nn" type="PLAIN_TEXT" />
-      <mapping ext="dot" type="PLAIN_TEXT" />
-      <mapping ext="s" type="PLAIN_TEXT" />
-      <mapping ext="log" type="PLAIN_TEXT" />
+      <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="gherkin" type="PLAIN_TEXT" />
       <mapping ext="otf" type="PLAIN_TEXT" />
-      <mapping ext="üy" type="PLAIN_TEXT" />
-      <mapping ext="fld2" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="PLAIN_TEXT" />
-      <mapping ext="xcf" type="PLAIN_TEXT" />
-      <mapping ext="mmtilec" type="PLAIN_TEXT" />
-      <mapping ext="tsv" type="PLAIN_TEXT" />
+      <mapping ext="dot" type="PLAIN_TEXT" />
       <mapping ext="mid" type="PLAIN_TEXT" />
-      <mapping ext="res" type="PLAIN_TEXT" />
-      <mapping ext="mmtile" type="PLAIN_TEXT" />
+      <mapping ext="mmtilec" type="PLAIN_TEXT" />
+      <mapping ext="woff2" type="PLAIN_TEXT" />
       <mapping ext="a" type="PLAIN_TEXT" />
-      <mapping ext="text" type="PLAIN_TEXT" />
-      <mapping ext="" type="PLAIN_TEXT" />
+      <mapping ext="s" type="PLAIN_TEXT" />
+      <mapping ext="mmtile" type="PLAIN_TEXT" />
+      <mapping ext="php" type="PLAIN_TEXT" />
+      <mapping ext="pyc" type="PLAIN_TEXT" />
+      <mapping ext="res" type="PLAIN_TEXT" />
+      <mapping ext="package" type="PLAIN_TEXT" />
+      <mapping ext="fld2" type="PLAIN_TEXT" />
+      <mapping ext="nn" type="PLAIN_TEXT" />
+      <mapping ext="pkg" type="PLAIN_TEXT" />
+      <mapping ext="tsv" type="PLAIN_TEXT" />
+      <mapping ext="xcf" type="PLAIN_TEXT" />
+      <mapping ext="npz" type="PLAIN_TEXT" />
+      <mapping ext="step" type="PLAIN_TEXT" />
+      <mapping ext="üy" type="PLAIN_TEXT" />
       <mapping ext="tdesc" type="XML" />
       <mapping pattern=".dependencies" type="YAML" />
       <mapping pattern=".pkgmeta" type="YAML" />
@@ -45,6 +44,7 @@
       <removed_mapping ext="lua" approved="true" type="AUTO_DETECTED" />
       <removed_mapping ext="lua" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="otf" approved="true" type="Font" />
+      <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping pattern="*.stories.tsx" approved="true" type="TypeScript JSX" />
       <removed_mapping ext="toc" approved="true" type="PLAIN_TEXT" />
