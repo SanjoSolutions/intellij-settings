@@ -46,4 +46,13 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="bfe" value="beforeEach(() =&gt; {&#10;  $END$&#10;});" description="Inserts beforeEach() block" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="afe" value="afterEach(() =&gt; {&#10;  $END$&#10;});" description="Inserts afterEach() block" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="bf" value="before(() =&gt; {&#10;  $END$&#10;});" description="Inserts before() block" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
