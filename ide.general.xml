@@ -11,5 +11,6 @@
     <entry key="external.system.auto.import.disabled" value="true" />
     <entry key="debugger.watches.in.variables" value="false" />
     <entry key="debugger.new.tool.window.layout" value="true" />
+    <entry key="idea.plugins.compatible.build" value="" />
   </component>
 </application>
