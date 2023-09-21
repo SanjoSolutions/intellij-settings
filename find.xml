@@ -23,6 +23,7 @@
     <mask>*.cjs</mask>
     <mask>*.js</mask>
     <mask>*.toc</mask>
+    <mask>tsconfig*.json</mask>
     <mask>package.json</mask>
   </component>
 </application>
