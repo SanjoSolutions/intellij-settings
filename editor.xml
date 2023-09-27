@@ -48,7 +48,6 @@
     <pattern pattern="\bfixme\b.*" />
   </component>
   <component name="XmlEditorOptions">
-    <option name="autoCloseTag" value="false" />
     <option name="automaticallyInsertRequiredSubTags" value="false" />
     <option name="automaticallyStartAttribute" value="false" />
     <option name="selectWholeCssIdentifierOnDoubleClick" value="false" />
