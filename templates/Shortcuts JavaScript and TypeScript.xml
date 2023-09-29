@@ -91,7 +91,7 @@
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;items &quot;" alwaysStopAt="true" />
     <context>
-      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
