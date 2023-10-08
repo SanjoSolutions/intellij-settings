@@ -4,13 +4,26 @@
     <option name="AUTOCOMPLETE_ON_SMART_TYPE_COMPLETION" value="false" />
     <option name="SMART_BACKSPACE" value="0" />
     <option name="JAVADOC_STUB_ON_ENTER" value="false" />
-    <option name="SMART_END_ACTION" value="false" />
     <option name="SURROUND_SELECTION_ON_QUOTE_TYPED" value="false" />
     <option name="AUTOINSERT_PAIR_QUOTE" value="false" />
     <option name="REFORMAT_ON_PASTE" value="1" />
     <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
   </component>
+  <component name="DeclarativeInlayHintsSettings">
+    <option name="providerIdToEnabled">
+      <map>
+        <entry key="js.chain.hints" value="true" />
+        <entry key="js.type.hints" value="true" />
+        <entry key="qodana.yaml.inspection.descriptions" value="true" />
+        <entry key="ts.chain.hints" value="true" />
+        <entry key="ts.enum.hints" value="true" />
+        <entry key="ts.type.hints" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
+    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
     <option name="IS_CARET_BLINKING" value="false" />
     <option name="SMART_HOME" value="false" />
@@ -35,7 +48,6 @@
     <pattern pattern="\bfixme\b.*" />
   </component>
   <component name="XmlEditorOptions">
-    <option name="autoCloseTag" value="false" />
     <option name="automaticallyInsertRequiredSubTags" value="false" />
     <option name="automaticallyStartAttribute" value="false" />
     <option name="selectWholeCssIdentifierOnDoubleClick" value="false" />

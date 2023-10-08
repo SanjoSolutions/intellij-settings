@@ -381,6 +381,7 @@
     </option>
   </inspection_tool>
   <inspection_tool class="CssUnknownTarget" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssUnknownUnit" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="CssUnresolvedClass" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="CssUnresolvedClassInComposesRule" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="CssUnresolvedCustomProperty" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -441,6 +442,14 @@
   <inspection_tool class="DockerJsonFormStringLiterals" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DocumentWriteJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DollarSignInName" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DotEnvDuplicateKeyInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DotEnvExtraBlankLineInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DotEnvIncorrectDelimiterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DotEnvLeadingCharacterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DotEnvLowercaseKeyInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DotEnvSpaceAroundSeparatorInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DotEnvSpaceInsideNonQuotedInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DotEnvTrailingWhitespaceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DoubleBraceInitialization" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="DoubleCheckedLocking" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DoubleLiteralMayBeFloatLiteral" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -510,7 +519,6 @@
   <inspection_tool class="EditorConfigValueUniqueness" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="EditorConfigVerifyByCore" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="EditorConfigWildcardRedundancy" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="EjsUnresolvedInclude" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="EmptyBody" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="EmptyCatchBlockJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="EmptyClass" enabled="false" level="WARNING" enabled_by_default="false">
