@@ -5,4 +5,7 @@
       <entry key="PlantUMLLanguageExtension" value="false" />
     </enabledExtensions>
   </component>
+  <component name="MarkdownCodeInsightSettings">
+    <option name="renumberListsOnType" value="true" />
+  </component>
 </application>
