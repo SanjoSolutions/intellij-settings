@@ -8,7 +8,6 @@
   </template>
   <template name="it" value="it('$NAME$', () =&gt; {&#10;  $END$&#10;});" description="Inserts it() block" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="ita" value="it('$NAME$', async () =&gt; {&#10;  $END$&#10;}); " description="Inserts async it() block" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
@@ -31,9 +30,7 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="af" value="after(function() {&#10;  $END$&#10;});" description="Inserts after() block" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <context />
-  </template>
+  <template name="af" value="after(function() {&#10;  $END$&#10;});" description="Inserts after() block" toReformat="true" toShortenFQNames="true" deactivated="true" />
   <template name="befe" value="beforeEach(() =&gt; {&#10;  $END$&#10;});" description="Inserts beforeEach() block" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
