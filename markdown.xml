@@ -6,6 +6,12 @@
     </enabledExtensions>
   </component>
   <component name="MarkdownCodeInsightSettings">
-    <option name="renumberListsOnType" value="true" />
+    <option name="adjustListIndentation" value="false" />
+    <option name="enableFileDrop" value="false" />
+    <option name="insertHtmlLineBreakInsideTables" value="false" />
+    <option name="insertNewTableRowOnShiftEnter" value="false" />
+    <option name="reformatTablesOnType" value="false" />
+    <option name="smartEnterAndBackspace" value="false" />
+    <option name="useTableCellNavigation" value="false" />
   </component>
 </application>
