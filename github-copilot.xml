@@ -5,6 +5,8 @@
     <languageAllowList>
       <map>
         <entry key="*" value="true" />
+        <entry key="MDX" value="false" />
+        <entry key="TEXT" value="false" />
       </map>
     </languageAllowList>
     <option name="showIdeCompletions" value="true" />
