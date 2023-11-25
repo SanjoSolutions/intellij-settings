@@ -1,0 +1,16 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="Markdown" injector-id="js">
+      <display-name>Markdown</display-name>
+      <single-file value="false" />
+      <place><![CDATA[taggedString("md")]]></place>
+      <templateTag>md</templateTag>
+    </injection>
+    <injection language="RegExp" injector-id="js">
+      <display-name>Regular expression template string</display-name>
+      <single-file value="false" />
+      <place><![CDATA[taggedString("regexp")]]></place>
+      <templateTag>regexp</templateTag>
+    </injection>
+  </component>
+</application>

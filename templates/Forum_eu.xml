@@ -2,16 +2,19 @@
   <template name="intl" value="const intl = useIntl();&#10;" description="const intl = useIntl();" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="classes" value="const classes = useStyles();&#10;" description="const classes = useStyles();" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="intlsurround" value="{intl.formatMessage({&#10;    id: '$END$',&#10;    defaultMessage: '$SELECTION$'&#10;})}" description="Surrent with intl.formatMessage" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JSX_HTML" value="true" />
+      <option name="TSX_HTML" value="true" />
     </context>
   </template>
   <template name="uintlsurround" value="intl.formatMessage({&#10;    id: '$END$',&#10;    defaultMessage: $SELECTION$&#10;})" description="Surrent with intl.formatMessage" toReformat="true" toShortenFQNames="true">
@@ -19,11 +22,13 @@
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
       <option name="JS_CLASS" value="false" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="appcontext" value="const [$END$] = useAppContext();&#10;" description="const [] = useAppContext();" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>

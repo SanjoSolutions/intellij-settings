@@ -4,7 +4,8 @@
     <variable name="SETTER_NAME" expression="concat(&quot;set&quot;, capitalize(NAME))" defaultValue="" alwaysStopAt="false" />
     <variable name="DEFAULT_VALUE" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
     <context>
-      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>

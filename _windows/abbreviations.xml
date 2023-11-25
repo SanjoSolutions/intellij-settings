@@ -2,6 +2,7 @@
   <component name="AbbreviationManager">
     <abbreviations>
       <action id="com.wallaby.javascript.actions.ResetCache">
+        <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
       <action id="com.wallaby.javascript.actions.PlayTracePrevStepOverAction">
@@ -33,9 +34,11 @@
         <abbreviation name="wallaby" />
       </action>
       <action id="com.wallaby.javascript.actions.ShowInOutputInspectorAction">
+        <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
       <action id="com.wallaby.javascript.actions.RevealValueAction">
+        <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
       <action id="com.wallaby.javascript.actions.ProfileTestAction">
@@ -54,14 +57,8 @@
         <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
-      <action id="com.wallaby.javascript.actions.ShowLineTimingsAction">
-        <abbreviation name="wallaby" />
-      </action>
       <action id="com.wallaby.javascript.actions.ToggleTestFilterAction">
         <abbreviation name="w" />
-        <abbreviation name="wallaby" />
-      </action>
-      <action id="com.wallaby.javascript.actions.ShowLineValuesAction">
         <abbreviation name="wallaby" />
       </action>
       <action id="com.wallaby.javascript.actions.UpdateProjectSnapshotsAction">
@@ -82,9 +79,6 @@
       </action>
       <action id="com.wallaby.javascript.actions.ShowFileUncoveredRangesAction">
         <abbreviation name="w" />
-        <abbreviation name="wallaby" />
-      </action>
-      <action id="com.wallaby.javascript.actions.ResumeAction">
         <abbreviation name="wallaby" />
       </action>
       <action id="com.wallaby.javascript.actions.PlayTraceNextStepAction">
@@ -128,6 +122,7 @@
         <abbreviation name="wallaby" />
       </action>
       <action id="com.wallaby.javascript.actions.ShowErrorAction">
+        <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
       <action id="com.wallaby.javascript.actions.RunTestFileAction">
@@ -144,9 +139,6 @@
       </action>
       <action id="com.wallaby.javascript.actions.ResetTestFilterAction">
         <abbreviation name="w" />
-        <abbreviation name="wallaby" />
-      </action>
-      <action id="com.wallaby.javascript.actions.PauseAction">
         <abbreviation name="wallaby" />
       </action>
       <action id="com.wallaby.javascript.actions.PlayTraceBackwardToSelectionAction">
@@ -178,6 +170,7 @@
         <abbreviation name="wallaby" />
       </action>
       <action id="com.wallaby.javascript.actions.SearchTestsAction">
+        <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
       <action id="com.wallaby.javascript.actions.PlayTracePrevStepAction">
@@ -188,14 +181,16 @@
         <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
-      <action id="com.wallaby.javascript.actions.JumpToCodeAction">
-        <abbreviation name="wallaby" />
-      </action>
       <action id="com.wallaby.javascript.actions.JumpToFailingTestAction">
         <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
+      <action id="com.wallaby.javascript.actions.JumpToCodeAction">
+        <abbreviation name="w" />
+        <abbreviation name="wallaby" />
+      </action>
       <action id="com.wallaby.javascript.actions.RemoveInspectionAction">
+        <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
       <action id="com.wallaby.javascript.actions.LoadStartOfTruncatedTestStoryAction">

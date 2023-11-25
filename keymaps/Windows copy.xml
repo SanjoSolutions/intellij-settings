@@ -30,7 +30,11 @@
   <action id="ReactExtractComponentAction">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
+  <action id="SaveAs" />
   <action id="SmartSelect" />
+  <action id="SurroundWithEmmet">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
@@ -45,9 +49,6 @@
   </action>
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
-  </action>
-  <action id="copilot.applyInlays">
-    <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="copilot.cycleNextInlays">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
@@ -64,4 +65,5 @@
   <action id="copilot.requestCompletions">
     <keyboard-shortcut first-keystroke="ctrl alt #10000df" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>

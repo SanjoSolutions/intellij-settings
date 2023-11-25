@@ -2,9 +2,16 @@
   <component name="LineMarkerSettings">
     <option name="providers">
       <map>
+        <entry key="PbCodeImplementationLineMarkerProvider" value="true" />
         <entry key="RenderedDoc" value="false" />
         <entry key="com.intellij.execution.lineMarker.RunLineMarkerProvider" value="false" />
+        <entry key="com.intellij.httpClient.http.request.codeInsight.HttpClientOverrideLineMarkerProvider" value="true" />
+        <entry key="com.intellij.httpClient.http.request.codeInsight.HttpRequestDiffLineMarkerProvider" value="true" />
+        <entry key="com.intellij.httpClient.http.request.environment.codeinsight.HttpRequestEnvironmentSetSecretLineMarkerProvider" value="true" />
+        <entry key="com.intellij.httpClient.http.request.microservices.endpoints.EmbeddedHttpClientEditorRunLineMarkerProvider" value="true" />
         <entry key="com.intellij.lang.javascript.highlighting.JSRecursiveCallLineMarkerProvider" value="true" />
+        <entry key="com.intellij.lang.javascript.highlighting.TypeScriptSourceMappingLineMarkerProvider" value="true" />
+        <entry key="com.intellij.openapi.vcs.changes.ignore.codeInsight.IgnoreDirectoryMarkerProvider" value="true" />
         <entry key="com.intellij.ui.ColorLineMarkerProvider" value="true" />
         <entry key="com.intellij.ws.http.request.codeInsight.HttpRequestDiffLineMarkerProvider" value="false" />
         <entry key="js.implemented" value="false" />
@@ -12,6 +19,10 @@
         <entry key="js.overridden" value="false" />
         <entry key="js.overriding" value="false" />
         <entry key="org.editorconfig.configmanagement.editor.EditorConfigPreviewMarkerProvider" value="false" />
+        <entry key="org.intellij.plugins.markdown.editor.images.ConfigureHtmlImageLineMarkerProvider" value="true" />
+        <entry key="org.intellij.plugins.markdown.editor.images.ConfigureMarkdownImageLineMarkerProvider" value="true" />
+        <entry key="org.intellij.plugins.markdown.editor.images.ConfigureTextHtmlImageLineMarkerProvider" value="true" />
+        <entry key="org.intellij.plugins.markdown.extensions.common.plantuml.PlantUMLCodeFenceDownloadLineMarkerProvider" value="true" />
       </map>
     </option>
   </component>
